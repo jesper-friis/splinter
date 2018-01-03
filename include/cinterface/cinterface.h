@@ -19,7 +19,7 @@
 # endif
 #endif
 
-// Pointer to C++ objects, passed into the C interface then cast to the correct type.
+/* Pointer to C++ objects, passed into the C interface then cast to the correct type. */
 typedef void *splinter_obj_ptr;
 
 
@@ -355,4 +355,4 @@ SPLINTER_API void splinter_bspline_decompose_to_bezier_form(splinter_obj_ptr bsp
     }
 #endif
 
-#endif // SPLINTER_CINTERFACE_H
+#endif /* SPLINTER_CINTERFACE_H */
